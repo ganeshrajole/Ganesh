@@ -2,17 +2,27 @@ public class {
 
 public static void main (String []args){
 
-int a=20;
+int n;
 
-int b=30;
+Scanner sc = new Scanner(System.in);
 
-int c=(a+b);
+syso("Enter your Number");
+n=sc.nextInt();
 
+if(n%2==0)
 
-syso(c);
+{
 
+syso("Given No is Even")
 
 }
+
+else
+{
+syso("Given No is Odd")
+}
+
+
 
 
 
